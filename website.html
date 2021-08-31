@@ -1,0 +1,218 @@
+<!-- Commands to Remember:
+Ctrl + K + C ===> Comment out
+Ctrl + K + U ===> Remove Comment 
+
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Jose's World</title>
+</head>
+
+<body>
+
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Jose</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Menu Items-->
+          <div class="collapse navbar-collapse mx-auto" id="navbarScroll">
+            <ul class="navbar-nav navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active me" aria-current="page" href="#top">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutme">About me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Spotify</a></li>
+                  <li><a class="dropdown-item" href="#">Website</a></li>
+                  <li><a class="dropdown-item" href="#">Discord Bot</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enabled" href="#contactme" tabindex="-1" aria-disabled="false">Contact Me</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+    </nav>
+
+    <!--Homepage Info-->
+            <section class="bg-dark text-light p-5 text-center text-sm-start" id="top">
+              <div class="container">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                  <div>
+                   <h1> Welcome to <span class="text-warning">Jose</span>'s Homepage</h1> 
+                   <p class="lead my-4 mx-4 fs-4">
+                     This website was made to showcase my projects and experience.
+                     Further improvements will be added upon learning more about Bootstrap 5.
+                     Currently working on improving the homepage of the website, but other features such as
+                     the about me & projects will come at a later date.
+                   </p>
+                  </div class="container">
+                  <img src="img/me.jpg" class="img-fluid float-sm-start w-50 d-none d-sm-block img-thumbnail my-4 mx-1" alt="">
+                </div>
+              </div>
+            </section>
+
+  <!--About me -->
+  <section class="p-5 bg-dark" id="aboutme">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="container">
+          <img src="img/me_hiking.jpg" alt="" class="img-fluid w-75 d-none d-sm-block img-thumbnail my-1">
+        </div>
+        <div>
+        <h2 class="mb-4 text-warning text-center">About me</h2>
+        <p class="lead mx-5 my-4 text-light tab">
+          Born in Guadalajara, Jalisco and raised in Fullerton, California, I aspired to
+          try and gain a life here in the United States. My parents sacrificed their old life to try and
+          allow their children to gain a new one here. As the eldest of four, I've had a rough time trying
+          to learn what life had to offer. With very little guidance in hand, I graduated from Buena Park High
+          School with my high school diploma and California State University, Fullerton with my Bachelors of Science
+          in Computer Science.
+        <p class="lead mx-5 text-light tab">
+            As time passed, I've figured I really like the aspect of coding. I've been looking for ways to improve 
+            my understanding of how computers and programs work in both the front-end and back-end to become a full-stack
+            developer. The only goal fueling me to keep learning is having my own room. Being of poverty, I've never had my own
+            room, and working for it is what is in my mind right now.
+        </p>
+          <p class="lead mx-5 text-light tab">
+            Since I was born in Mexico, I've also had a hard time not being a citizen. It wasn't until the Development, Relief, 
+            and Education for Alien Minors Act, or DREAM Act, of 2017 that gave me more of a chance of being able to work & learn
+            from higher education in the United States.
+          </p>
+        </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Boxes -->
+  <section class="p-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <i>
+                <img src="https://img.icons8.com/nolan/96/crunchyroll.png"/>
+              </i>
+              <h3 class="text-center">Anime</h3>
+              <p class="fs-5">
+                I really enjoy watching anime. My current favorite is one called <a href="https://www.google.com/search?q=To+Your+Eternity&sxsrf=AOaemvLJ4OTZmEz144TOyFicvi0zVlZozg%3A1630412376859&source=hp&ei=WB4uYY7vLqq0qtsP3dqW8Ac&iflsig=ALs-wAMAAAAAYS4saGcWTbILsD685-s7f28-9fc9ktbA&oq=To+Your+Eternity&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyCwgAEIAEELEDEIMBMgUIABCABDIICAAQsQMQgwEyCAgAELEDEIMBMgUIABCABDILCAAQgAQQsQMQgwEyCAgAEIAEELEDMgUIABCABDoHCCMQ6gIQJzoFCAAQkQI6DgguEIAEELEDEMcBEKMCOhoILhCABBCxAxCDARDHARDRAxCLAxCoAxDSAzoICC4QsQMQgwE6CAguEIAEELEDOgUILhCABFDQC1jBHWCNHmgBcAB4AIABjwGIAYANkgEEMi4xM5gBAKABAbABCrgBAg&sclient=gws-wiz&ved=0ahUKEwiO-7e0n9vyAhUqmmoFHV2tBX4Q4dUDCAo&uact=5">To Your Eternity</a>
+                because the main character, like me, has to figure out how to live in this world. Unlike me though, he's immortal
+                and has to suffer through the realities of life.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <i>
+                <img src="https://img.icons8.com/nolan/96/controller.png"/>
+              </i>
+              <h3 class="text-center">Games</h3>
+              <p class="fs-5">
+                I also enjoy playing a lot of video games and hope for one day to work in the
+                video game industry as soon as crunching isn't a thing. I mainly play with friends because
+                I love the social aspect of having fun online with friends to laugh with. Also hope to make my
+                next project a video game to publish.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <i>
+                <img src="https://img.icons8.com/nolan/96/adventure.png"/>
+              </i>
+              <h3 class="text-center">Adventure</h3>
+              <p class="fs-5">
+                If I'm not gaming or watching anime, I do like to go out for hikes and walks in my spare time.
+                This is mainly to let nature unravel & clear my mind from life.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Contact Info-->
+  <section class="p-5" id="contactme">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md">
+          <h2 class="text-center mb-4">Contact Info</h2>
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold">Email</span>: jmuniz900@gmail.com
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Phone #</span>: placeholder
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Social Media</span>: 
+              <a href="https://www.instagram.com/hozayalltheway/" class="instagram mx-auto">
+                <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"/>
+              </a>
+              <a href="https://twitter.com/operator_jose" class="twitter">
+              <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>
+              </a>
+              <a href="https://www.linkedin.com/in/jose-muniz-60265a100/" class="linkedin">
+                <img src="https://img.icons8.com/cute-clipart/48/000000/linkedin.png"/>
+              </a>
+              <a href="https://www.tiktok.com/@operator900?lang=en" class="tiktok">
+                <img src="https://img.icons8.com/ios-filled/48/000000/tiktok--v1.png"/>
+              </a>
+            </li>
+            <!-- <li class="list-group-item">
+              <span class="fw-bold">LinkedIn</span>: jmuniz900@gmail.com
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2021</p>
+
+      <a href="#top" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi h1">
+          <img src="https://img.icons8.com/color/48/000000/left-up2.png"/>
+        </i>
+      </a>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

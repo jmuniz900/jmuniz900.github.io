@@ -1,0 +1,15 @@
+.img-fluid {
+    border-radius: 500px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tab {
+    text-indent: 40px;
+}
