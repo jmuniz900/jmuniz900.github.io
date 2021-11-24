@@ -22,7 +22,9 @@ Ctrl + K + U ===> Remove Comment
 <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">Jose</a>
+          <a class="navbar-brand" href="#">
+            <img src="img/image.png" alt="">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,7 +35,7 @@ Ctrl + K + U ===> Remove Comment
                 <a class="nav-link active me" aria-current="page" href="website.html#top">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#aboutme">About me</a>
+                <a class="nav-link" href="website.html#aboutme">About me</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,10 +43,8 @@ Ctrl + K + U ===> Remove Comment
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                   <li><a class="dropdown-item" href="#spotify">Spotify</a></li>
-                  <li><a class="dropdown-item" href="#">Website</a></li>
-                  <li><a class="dropdown-item" href="#">Discord Bot</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#website">Website</a></li>
+                  <li><a class="dropdown-item" href="#discordbot">Discord Bot</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -55,19 +55,16 @@ Ctrl + K + U ===> Remove Comment
           </div>
     </nav>
 
-    <!--Homepage Info-->
+    <!--Projects Info-->
             <section class="bg-dark text-light p-5 text-center text-sm-start" id="top">
               <div class="container">
                 <div class="d-sm-flex align-items-center justify-content-between">
                   <div>
-                   <h1> Projects</h1> 
+                   <h1 class="my-5"> Projects</h1> 
                    <p class="lead my-4 mx-4 ">
                      A few projects that will go in detail include Spotify Music Recommender, Discord Bot, and this website.
                    </p>
-                  </div class="container">
-                  <img src="img/me.jpg" class="img-fluid float-sm-start w-50 d-none d-sm-block img-thumbnail my-4 mx-1" alt="">
                 </div>
-              </div>
             </section>
 
   <!--Spotify -->
@@ -75,27 +72,20 @@ Ctrl + K + U ===> Remove Comment
     <div class="container">
       <div class="d-sm-flex align-items-center justify-content-between">
         <div class="container">
-
+          <img src="img/spotify-icon-green-logo-8.png" alt="" class="img-fluid w-50">
         </div>
         <div>
-        <h2 class="mb-4 text-dark text-center">Spotify</h2>
+        <h2 class="mb-4 text-dark text-center">Spotify API</h2>
         <p class="lead mx-5 my-4 text-light tab">
-          Born in Guadalajara, Jalisco and raised in Fullerton, California, I aspired to
-          try and gain a life here in the United States. My parents sacrificed their old life to try and
-          allow their children to gain a new one here. As the eldest of four, I've had a rough time trying
-          to learn what life had to offer. With very little guidance in hand, I graduated from Buena Park High
-          School with my high school diploma and California State University, Fullerton with my Bachelors of Science
-          in Computer Science.
+          During college, I really wanted to learn how to use an API. This lead to me creating a Spotify Music Recommender
+          using the Spotify API to allow a user to input a song and get a request from the API to output ten more songs in the 
+          same genre as the song inputted. It's a very crude program in the form it's in and definitely still needs improvements
+          to both the front-end and back-end.
         <p class="lead mx-5 text-light tab">
-            As time passed, I've figured I really like the aspect of coding. I've been looking for ways to improve 
-            my understanding of how computers and programs work in both the front-end and back-end to become a full-stack
-            developer. The only goal fueling me to keep learning is having my own room. Being of poverty, I've never had my own
-            room, and working for it is what is in my mind right now.
+     
         </p>
           <p class="lead mx-5 text-light tab">
-            Since I was born in Mexico, I've also had a hard time not being a citizen. It wasn't until the Development, Relief, 
-            and Education for Alien Minors Act, or DREAM Act, of 2017 that gave me more of a chance of being able to work & learn
-            from higher education in the United States.
+       
           </p>
         </p>
         </div>
@@ -103,7 +93,51 @@ Ctrl + K + U ===> Remove Comment
     </div>
   </section>
 
-  <!--Boxes -->
+<!--Website-->
+<section class="p-5 bg-dark" id="website">
+  <div class="container">
+    <div class="sm-flex align -items-center justify-content-between">
+      <div class="container">
+
+      </div>
+      <div>
+        <h2 class="mb-4 text-light text-center">Personal Website</h2>
+        <p class="lead mx-5 my-4 text-light tab">
+          Out of my own boredom, I decided to create a website to showcase what I've learned in the few weeks of web development. Using Bootstrap 5, I was able to create 
+          an interactive website. There's a lot more to learn, like adding interactive widgets with React.js and making the website a lot more efficient and responsive. 
+          There's also a few minor problems, like image resizing, that bootstrap doesn't allow to control. Which is why you can tell some images on the website just look
+          abnormal.
+        <p class="lead mx-5 text-light tab">
+     
+        </p>
+          <p class="lead mx-5 text-light tab">
+       
+          </p>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--Disco Bot-->
+<section class="p-5 bg-secondary" id="discordbot">
+  <div class="container">
+    <div class="sm-flex align -items-center justify-content-between">
+      <div class="container">
+
+      </div>
+      <div>
+        <h2 class="mb-4 text-light text-center">Discord Bot</h2>
+        <p class="lead mx-5 my-4 text-light tab">
+          The story behind this project is that my friend wanted to create a community on Discord. With it, he also wanted a custom bot made that revolved around
+          monkeys
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!--Boxes 
   <section class="p-5">
     <div class="container">
       <div class="row text-center">
@@ -158,6 +192,7 @@ Ctrl + K + U ===> Remove Comment
       </div>
     </div>
   </section>
+-->
   <!--Contact Info-->
   <section class="p-5" id="contactme">
     <div class="container">
@@ -169,7 +204,7 @@ Ctrl + K + U ===> Remove Comment
               <span class="fw-bold">Email</span>: jmuniz900@gmail.com
             </li>
             <li class="list-group-item">
-              <span class="fw-bold">Phone #</span>: placeholder
+              <span class="fw-bold">Phone #</span>: (657) 231-2835‬
             </li>
             <li class="list-group-item">
               <span class="fw-bold">Social Media</span>: 
